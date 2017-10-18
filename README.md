@@ -4,4 +4,4 @@ Uses Nuxt [community starter template](https://github.com/nuxt-community/starter
   
 Read more about the setup at [Contentful's blog](https://www.contentful.com/developers/docs/javascript/tutorials/integrate-contentful-with-vue-and-nuxt/)  
   
-Just run `vue init Yliaho/nuxt-contentful-starter my-project` to get started.
+Just run `vue init yliaho/nuxt-contentful-starter my-project` to get started.
