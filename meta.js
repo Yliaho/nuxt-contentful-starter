@@ -29,14 +29,12 @@ module.exports = {
       'type': 'string',
       'required': false,
       'message': 'Space ID',
-      'default': ''
     },
     contentfulSetupAccessToken: {
       'when': 'contentful',
       'type': 'string',
       'required': false,
       'message': 'Content Delivery API - access token',
-      'default': ''
     }
   },
   completeMessage: '{{#inPlace}}To get started:\n\n  npm install # Or yarn\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install # Or yarn\n  npm run dev{{/inPlace}}'
