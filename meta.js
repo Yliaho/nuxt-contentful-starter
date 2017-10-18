@@ -3,7 +3,7 @@ module.exports = {
     raw: function(options) {
       return options.fn(this)
     },
-    stringMe: (value) => {}
+    stringMe: value => `"${value}"` 
   },
   prompts: {
     name: {
