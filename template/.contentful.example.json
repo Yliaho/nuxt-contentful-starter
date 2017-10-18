@@ -1,6 +1,6 @@
 {
   "CTF_BLOG_ARTICLE_TYPE_ID": "blogArticle",
 
-  "CTF_SPACE_ID": "get space id from 'APIs' tab",
-  "CTF_CDA_ACCESS_TOKEN": "get access token from 'APIs' tab on your selected space"
+  "CTF_SPACE_ID": {{ contentfulSetupSpaceId }},
+  "CTF_CDA_ACCESS_TOKEN": {{ contentfulSetupAccessToken }}
 }
