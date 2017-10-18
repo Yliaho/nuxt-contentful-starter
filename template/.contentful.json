@@ -1,0 +1,6 @@
+{
+  "CTF_BLOG_ARTICLE_TYPE_ID": "blogArticle",
+
+  "CTF_SPACE_ID": {{ stringMe contentfulSetupSpaceId }},
+  "CTF_CDA_ACCESS_TOKEN": {{ stringMe contentfulSetupAccessToken }}
+}
