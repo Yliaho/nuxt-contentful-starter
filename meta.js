@@ -2,7 +2,8 @@ module.exports = {
   helpers: {
     raw: function(options) {
       return options.fn(this)
-    }
+    },
+    stringMe: (value) => `"${value}"`
   },
   prompts: {
     name: {
