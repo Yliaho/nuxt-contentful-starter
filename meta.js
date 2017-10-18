@@ -3,7 +3,8 @@ module.exports = {
     raw: function(options) {
       return options.fn(this)
     },
-    stringMe: value => `"${value}"` 
+    stringMe: value => `"${value}"`,
+    iDontLikeHandleBars: value => value
   },
   prompts: {
     name: {
@@ -37,6 +38,9 @@ module.exports = {
       'required': false,
       'message': 'Content Delivery API - access token',
     }
+  },
+  filters: {
+    '.contentful.json': 'contentful'
   },
   completeMessage: '{{#inPlace}}To get started:\n\n  npm install # Or yarn\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install # Or yarn\n  npm run dev{{/inPlace}}'
 };
